@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Observer",
+    "author": "Emily Carter",
+    "genre": "Mystery",
+    "year": 2018
+  },
+  {
+    "id": 2,
+    "title": "Shadows of Tomorrow",
+    "author": "Marcus Flynn",
+    "genre": "Science Fiction",
+    "year": 2020
+  },
+  {
+    "id": 3,
+    "title": "Whispers in the Wind",
+    "author": "Sarah Thompson",
+    "genre": "Drama",
+    "year": 2016
+  },
+  {
+    "id": 4,
+    "title": "Beyond the Horizon",
+    "author": "Daniel Reyes",
+    "genre": "Adventure",
+    "year": 2015
+  },
+  {
+    "id": 5,
+    "title": "Code of Deception",
+    "author": "Liam Anderson",
+    "genre": "Thriller",
+    "year": 2022
+  },
+  {
+    "id": 6,
+    "title": "Fragments of Light",
+    "author": "Nora Williams",
+    "genre": "Romance",
+    "year": 2019
+  },
+  {
+    "id": 7,
+    "title": "The Last Archive",
+    "author": "James Turner",
+    "genre": "Dystopian",
+    "year": 2021
+  },
+  {
+    "id": 8,
+    "title": "Echoes of Eternity",
+    "author": "Ava Ramirez",
+    "genre": "Fantasy",
+    "year": 2017
+  },
+  {
+    "id": 9,
+    "title": "Numbers Never Lie",
+    "author": "Olivia Chen",
+    "genre": "Non-Fiction",
+    "year": 2023
+  },
+  {
+    "id": 10,
+    "title": "Beneath the Surface",
+    "author": "Hannah Brooks",
+    "genre": "Mystery",
+    "year": 2014
+  }
+]
