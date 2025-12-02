@@ -6,7 +6,7 @@ import '../styles/home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1>Home Page</h1>
+      
       <div className="books-grid">
         {books.map((book) => (
           <BookCard
