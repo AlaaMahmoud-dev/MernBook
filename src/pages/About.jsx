@@ -16,7 +16,7 @@ Our mission is to make great books accessible and enjoyable for everyone.
 </p>
 </div>
 <div className="about-image">
-    <img src="" alt="" />
+  
 <img src="C:\Users\pc\OneDrive\Desktop\MernBook\src\pages\Images\BooksWebSite.png" alt="Books" />
 </div>
 </div>
