@@ -1,25 +1,26 @@
-import React from 'react';
-import BookCard from '../components/BookCard/BookCard';
-import books from '../data/books.json';
-import '../styles/home.css'; 
+import { useEffect, useState } from "react";
+import BookCard from "../components/BookCard/BookCard";
+import "../styles/home.css";
+import booksData from "../data/books.json";
+import SearchBar from "../components/SearchBar/SearchBar";
+import SortSelect from "../components/SortSelect/SortSelect";
+export default function Home() {
+  const [books, setBooks] = useState([]);
 
-const Home = () => {
+  useEffect(() => {
+    // Load books from JSON
+    setBooks(booksData);
+  }, []);
+
   return (
     <div className="home-container">
-      
+      <h1 className="home-title">Books List</h1>
+
       <div className="books-grid">
         {books.map((book) => (
-          <BookCard
-            key={book.id}
-            title={book.title}
-            author={book.author}
-            genre={book.genre}
-            year={book.year}
-          />
+          <BookCard key={book.id} book={book} />
         ))}
       </div>
     </div>
   );
-};
-
-export default Home;
+}

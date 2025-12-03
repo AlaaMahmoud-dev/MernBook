@@ -1,19 +1,24 @@
-import React from 'react';
-import './bookCard.css';
-
-const BookCard = ({ title, author, genre, year }) => {
+import "./bookCard.css";
+export default function BookCard({ book }) {
   return (
-     <div className="book-card">
-      <div className='book-title'>
-        <h3>{title}</h3>
-      </div>
-      <div className='book-info'>
-        <p><strong>Author:</strong> {author}</p>
-      <p><strong>Genre:</strong> {genre}</p>
-      <p><strong>Year:</strong> {year}</p>
+    <div className="book-card">
+      <div className="book-id">#{book.id}</div>
+
+      <div className="book-info">
+        <h2 className="book-title">{book.title}</h2>
+
+        <p className="book-author">
+          <strong>Author:</strong> {book.author}
+        </p>
+
+        <p className="book-genre">
+          <strong>Genre:</strong> {book.genre}
+        </p>
+
+        <p className="book-year">
+          <strong>Year:</strong> {book.year}
+        </p>
       </div>
     </div>
   );
-};
-
-export default BookCard;
+}
