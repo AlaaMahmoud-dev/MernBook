@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import BookCard from "../components/BookCard/BookCard";
 import "../styles/home.css";
 import booksData from "../data/books.json";
-import SearchBar from "../components/SearchBar/SearchBar";
-import SortSelect from "../components/SortSelect/SortSelect";
+
 export default function Home() {
   const [books, setBooks] = useState([]);
 
